@@ -1,0 +1,50 @@
+#search {
+    position: absolute;
+    top: 20px;
+    left: 70px;
+    z-index: 1;
+  }
+
+#map {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 0;
+  }
+
+#recent {
+  position: absolute;
+  top: 50px;
+  left: 70px;
+  z-index: 1;
+  background-color: white;
+  width: 240px;
+  height: 180px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.search-item{
+  position: relative;
+  top: 0px;
+  left: 0px;
+  height: 50px;
+  width: 215px;
+  margin: 4px;
+  background-color: rgb(220, 220, 220);
+}
+.search-item:hover{
+  background-color: rgb(200, 200, 200);
+}
+.search-item:link{}
+
+.recent-text{
+    margin: 10px;
+    float: left;
+}
+
+.count{
+    margin: 10px;
+    float:right;
+    background-color:  rgb(180, 180, 180);
+}
